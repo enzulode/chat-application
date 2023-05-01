@@ -15,6 +15,9 @@ import java.util.List;
 @AllArgsConstructor
 public class ChatService
 {
+	/**
+	 * Message repository instance
+	 */
 	private final MessageRepository repository;
 
 	/**
